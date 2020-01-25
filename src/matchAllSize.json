@@ -1,5 +1,7 @@
 GET /vehicles/cars/_search
 {
+  "size": 20,
+
   "query": {
     "match_all": { }
   }
