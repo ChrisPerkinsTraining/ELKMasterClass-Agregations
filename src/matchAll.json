@@ -1,0 +1,6 @@
+GET /vehicules/cars/_search
+{
+  "query": {
+    "match_all": { }
+  }
+}
